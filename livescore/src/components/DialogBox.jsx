@@ -41,11 +41,15 @@ export default function AlertDialog({match}) {
           </DialogContentText>
             
           <DialogContentText id="alert-dialog-description">
-          {
-              
-                <h4>The match Type is:{match.matchType}</h4>
-              
-            }
+             
+                <h4>Status of The match is:{match.status}</h4>
+          
+          </DialogContentText>
+
+          <DialogContentText id="alert-dialog-description">
+             
+                <p>Venue of the match is::{match.venue}</p>
+          
           </DialogContentText>
 
         </DialogContent>
